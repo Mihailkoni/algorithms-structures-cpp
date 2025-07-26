@@ -1,11 +1,11 @@
-# Репозиторий для хранения всех заголовочных файлов с структурами и алгоритмами на C++
-## Это были задания по дисциплине «Фундаментальные алгоритмы и структуры данных» на втором курсе университета
-### Структуры данных
-- [`Двухсвязный кольцевой список`](Circular_Doubly_Linked_List.h): добавление в список, удаление из списка, поиск узла, вывод списка, обратный вывод списка, удаление всего списка, симметрическая разность, удаление после каждого вхождения заданного.
-- [`АВЛ-Дерево`](AVL_Tree.h): добавление, удаление справа, поиск, вывод, чтение и запись в файл, обратный обход дерева.
-- [`Хэш-таблица`](Hash_Table.h): статус ячейки (0,1,2), открытая адресация, хэш функция середина квадрата, квадратичный поиск места вставки, тип динамическая.
-- [`Граф`](Graph.h): неориентированный, взвешанный, внутреннее представление двухсвязный кольцевой список, обход в ширину и в глубину, алгоритм построения минимального остовного дерева алгоритм Прима.
-### Алгоритмы
-- [`Поиск в строке`](Search_in_string.h): алгоритм Рабина-Карпа и алгоритм Турбо Боуера-Мура.
-- [`Поиск в массиве`](Array_Search.h): алгоритм Линейный с барьером и алгоритм Однородный бинарный.
-- [`Сортировка массива`](Array_Sort.h):  алгоритм Улучшенный пузырёк и алгоритм Шелла с расстоянием Сэджвика.
+# A repository for storing all header files with structures and algorithms in C++
+## These were assignments in the discipline "Fundamental algorithms and Data Structures" in the second year of university
+### Data structures
+- [`Circular Doubly Linked List`](Circular_Doubly_Linked_List.h): adding to the list, deleting from the list, searching for a node, list output, reverse list output, deleting the entire list, symmetric difference, deletion after each occurrence of a given one ([GeeksForGeeks: Introduction to Circular Doubly Linked List](https://www.geeksforgeeks.org/dsa/introduction-to-circular-doubly-linked-list/));
+- [`AVL-Tree`](AVL_Tree.h): adding, deleting from the right, balancing, searching, output, reverse traversal of the tree ([GeeksForGeeks: AVL Tree Data Structure](https://www.geeksforgeeks.org/dsa/introduction-to-avl-tree/));
+- [`Hash-Table`](Hash_Table.h): cell status (0,1,2), open addressing, quadratic insertion point search, hash function middle of square, dynamic type ([GeeksForGeeks: Hash Table Data Structure](https://www.geeksforgeeks.org/dsa/hash-table-data-structure/));
+- [`Graph`](Graph.h): undirected, weighted, internal representation of a Circular Doubly Linked List, breadth-first and depth-first traversal, algorithm for constructing a minimum spanning tree, Prim's algorithm ([Introduction to Graph Data Structure](https://www.geeksforgeeks.org/dsa/introduction-to-graphs-data-structure-and-algorithm-tutorials/)).
+### Algorithms
+- [`Pattern Searching`](Search_in_string.h): Rabin-Karp algorithm and Turbo Bowyer-Moore algorithm ([EXACT STRING MATCHING ALGORITHMS](https://www-igm.univ-mlv.fr/~lecroq/string/index.html));
+- [`Array search`](Array_Search.h): Sentinel linear search algorithm and Uniform Binary Search algorithm ([GeeksForGeeks: Sentinel Linear Search](https://www.geeksforgeeks.org/dsa/searching-algorithms/), [GeeksForGeeks: Uniform Binary Search](https://www.geeksforgeeks.org/dsa/uniform-binary-search/));
+- [`Array Sorting`](Array_Sort.h):  Improved bubble algorithm and Shell algorithm with Sedgwick distance ([w3schools: DSA Bubble Sort](https://www.w3schools.com/dsa/dsa_algo_bubblesort.php), [[GeeksForGeeks: Shell Sort](https://www.geeksforgeeks.org/dsa/shell-sort/)).
