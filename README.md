@@ -8,4 +8,4 @@
 ### Algorithms
 - [`Pattern Searching`](Search_in_string.h): Rabin-Karp algorithm and Turbo Bowyer-Moore algorithm ([EXACT STRING MATCHING ALGORITHMS](https://www-igm.univ-mlv.fr/~lecroq/string/index.html));
 - [`Array search`](Array_Search.h): Sentinel linear search algorithm and Uniform Binary Search algorithm ([GeeksForGeeks: Sentinel Linear Search](https://www.geeksforgeeks.org/dsa/searching-algorithms/), [GeeksForGeeks: Uniform Binary Search](https://www.geeksforgeeks.org/dsa/uniform-binary-search/));
-- [`Array Sorting`](Array_Sort.h):  Improved bubble algorithm and Shell algorithm with Sedgwick distance ([w3schools: DSA Bubble Sort](https://www.w3schools.com/dsa/dsa_algo_bubblesort.php), [[GeeksForGeeks: Shell Sort](https://www.geeksforgeeks.org/dsa/shell-sort/)).
+- [`Array Sorting`](Array_Sort.h):  Improved bubble algorithm and Shell algorithm with Sedgwick distance ([w3schools: DSA Bubble Sort](https://www.w3schools.com/dsa/dsa_algo_bubblesort.php), [GeeksForGeeks: Shell Sort](https://www.geeksforgeeks.org/dsa/shell-sort/)).
