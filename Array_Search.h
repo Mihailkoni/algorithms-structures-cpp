@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "Array_Sort.h" // не забыть подключить
+#include "Array_Sort.h"
 using namespace std;
 
 bool Sentinel_Linear_Search(vector<key>arr, key& answer, int search_key, int& steps, int n) {
@@ -51,7 +51,7 @@ void steps_table(vector<int>& arr, int n) {
     }
 }
 
-bool Homogeneous_Binary_Search(vector<key>& arr, key& answer, int search_key, int& steps, int n) {
+bool Uniform_Binary_Search(vector<key>& arr, key& answer, int search_key, int& steps, int n) {
     int m = n / 2;
     vector<int> b_step;
     steps_table(b_step, m);
